@@ -1,3 +1,9 @@
+macro_shift_prtsc: macro_shift_prtsc{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_prtsc";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp PRINTSCREEN>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
